@@ -16,7 +16,7 @@ function AddUser() {
             'name': name,
             'email': email,
             'phone': phone,
-            'companyName': {
+            'company': {
                 'name':companyName
             }
         };
