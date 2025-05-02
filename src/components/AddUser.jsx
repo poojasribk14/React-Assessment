@@ -16,7 +16,9 @@ function AddUser() {
             'name': name,
             'email': email,
             'phone': phone,
-            'companyName': companyName
+            'companyName': {
+                'name':companyName
+            }
         };
         
         await axios.post('https://jsonplaceholder.typicode.com/users', body);
