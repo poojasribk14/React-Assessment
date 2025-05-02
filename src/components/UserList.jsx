@@ -52,6 +52,7 @@ function UserList() {
 
         <div className="card-body mt-5">
           <div className="table-responsive">
+            <h4>User List</h4>
             <table className="table table-striped">
               <thead>
                 <tr>
